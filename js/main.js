@@ -13,3 +13,6 @@ $(function(){
     loop: true
     });
 });
+
+//svg animation
+  new Vivus('compass', {duration: 400});
