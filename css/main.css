@@ -95,6 +95,9 @@ textarea {
 h2{
   font-weight: 300;
 }
+p{
+  margin:0;
+}
 nav{
   height: 70px;
   background-color: white;
@@ -105,6 +108,15 @@ header{
   background-color: #084f70;
   color: white;
   display: inline-block;
+  width:100%;
+}
+section{
+  width: 100%;
+  color: #2A323E;
+}
+section.dark{
+  color: white;
+  background: #87BB36;
 }
 header h1{
   font-size:4em;
@@ -134,7 +146,7 @@ nav li a:hover{
   padding: 40px 0px;
 }
 footer{
-  background-color: grey;
+  background-color: #444;
   height: 60px;
 }
 .service{
@@ -147,6 +159,32 @@ footer{
 .service h1{
   font-size: 1em;
   letter-spacing: 2px;
+}
+/* ==========================================================================
+   Typed effect
+   ========================================================================== */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #87BB36;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 /* ==========================================================================
