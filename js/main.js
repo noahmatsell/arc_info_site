@@ -6,7 +6,7 @@ $(function(){
     //Replace .element with the class or ID of your target text
     $("#typed").typed({
         //Replace placeholder text with your own text
-        strings: ["build", "fix", "connect"],
+        strings: ["build", "improve", "connect"],
         //change speed
         typeSpeed: 100,
         //loop the animation

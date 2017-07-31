@@ -123,12 +123,8 @@ section.dark{
 header h1{
   font-size:4em;
 }
-.heavylogo, .lightlogo{
-  font-family: Raleway !important;
-}
-
 .heavylogo{
-  font-weight:700;
+  font-weight:600;
 }
 .lightlogo{
   font-weight:100;
@@ -163,11 +159,13 @@ nav svg{
 .container{
   width:75%;
   margin: 0px auto;
-  padding: 40px 0px;
+  padding: 50px 0px;
 }
 footer{
   background-color: #444;
   height: 60px;
+  color: #fff;
+  text-align: center;
 }
 .service{
   display: inline-block;
@@ -177,6 +175,7 @@ footer{
   padding: 10px 20px 20px 20px;
   text-align: center;
 }
+
 section.dark .service{
   background-color: white;
 }
@@ -184,10 +183,58 @@ section.dark .service{
   font-size: 1em;
   letter-spacing: 3px;
 }
-svg path{
+.service svg{
+  height: 50%;
+  margin-top:40px;
+}
+.service svg path{
   fill: #444 !important;
 }
-
+button {
+  display: block;
+  margin: 60px auto 20px;
+  padding: 15px 45px;
+  font-size: 2em;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 3px;
+  border:1px solid rgba(0,0,0,0);
+  color: #fff;
+  background-color: #87BB36;
+}
+button:hover{
+  background-color:rgba(0,0,0,0);
+  border:1px solid #87BB36;
+}
+button:focus {
+  outline: none
+}
+.gallery{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.gallery div{
+  flex-grow: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  max-width: 70%;
+  min-width: 15%
+}
+.gallery div:hover{
+  -webkit-transition: .5s;
+  transition: .5s;
+  max-width: 70% !important;
+  -webkit-box-flex: 7;
+  -ms-flex-positive: 7;
+  flex-grow: 7;
+  cursor: pointer;
+}
 /* ==========================================================================
    logo animation
    ========================================================================== */
