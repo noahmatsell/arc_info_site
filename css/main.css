@@ -111,6 +111,19 @@ header{
   color: white;
   display: inline-block;
   width:100%;
+  margin-bottom: 50px;
+}
+header:after {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3.75deg);
+  z-index: -1;
 }
 section{
   width: 100%;
@@ -120,9 +133,11 @@ section.dark{
   color: white;
   background: #87BB36;
 }
+
 header h1{
   font-size:4em;
 }
+
 .heavylogo{
   font-weight:600;
 }
@@ -192,7 +207,7 @@ section.dark .service{
 }
 button {
   display: block;
-  margin: 60px auto 20px;
+  margin: 80px auto 20px;
   padding: 15px 45px;
   font-size: 2em;
   line-height: 1.8;
