@@ -114,17 +114,20 @@ header{
   margin-bottom: 50px;
 }
 header:after {
-  background: inherit;
-  top: 0;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  transform: skewY(3.75deg);
-  z-index: -1;
-}
+    background: inherit;
+    /* bottom: -100%; */
+    content: '';
+    display: block;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    /* right: 0; */
+    transform-origin: 100%;
+    transform: skewY(3.75deg);
+    z-index: -1;
+    margin-bottom: 20px;
+  }
 section{
   width: 100%;
   color: #2A323E;
