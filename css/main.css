@@ -190,7 +190,7 @@ nav svg{
   padding: 10px 0px;
 }
 .container{
-  width:75%;
+  width:95%;
   margin: 0px auto;
 }
 nav .container{
@@ -456,6 +456,7 @@ svg#Layer_1{
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    .container{width:75%;}
 }
 
 @media print,
