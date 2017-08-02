@@ -128,6 +128,21 @@ header:after {
     z-index: -1;
     margin-bottom: 20px;
   }
+#services:after {
+    background: white;
+    /* bottom: -100%; */
+    content: '';
+    display: block;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    /* right: 0; */
+    transform-origin: 100%;
+    transform: skewY(3.75deg);
+    z-index: 0;
+    margin-bottom: 20px;
+}
 section{
   width: 100%;
   color: #2A323E;
@@ -177,7 +192,12 @@ nav svg{
 .container{
   width:75%;
   margin: 0px auto;
-  padding: 50px 0px;
+}
+nav .container{
+  height: 100%;
+}
+section .container, header .container{
+    padding: 80px 0px 40px;
 }
 footer{
   background-color: #444;
@@ -210,7 +230,7 @@ section.dark .service{
 }
 button {
   display: block;
-  margin: 80px auto 20px;
+  margin-top: 80px;
   padding: 15px 45px;
   font-size: 2em;
   line-height: 1.8;
@@ -237,6 +257,9 @@ button:focus {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.gallery *{
+  z-index:5;
+}
 .gallery div{
   flex-grow: 1;
   -webkit-transition: .3s;
@@ -252,7 +275,20 @@ button:focus {
   -ms-flex-positive: 7;
   flex-grow: 7;
   cursor: pointer;
+  background-color: #444;
+  color: white;
 }
+.gallery button{
+  margin: 40px auto;
+  background-color: #084f70;
+  font-size: 1.2em; 
+}
+.gallery button:hover{
+  background-color:#fff;
+  border:1px solid #084f70;
+  color: #084f70;
+}
+
 /* ==========================================================================
    logo animation
    ========================================================================== */
@@ -262,7 +298,7 @@ button:focus {
 }
 
 .arc1, .arc2, .arc3 {
-  animation: turn 2s ease-out backwards;
+  animation: turn 3s ease-out backwards;
 }
 
 .arc2{
@@ -271,20 +307,36 @@ button:focus {
 .arc3{
   animation-delay: .6s;
 }
-
+svg#Layer_1{
+    animation: grow 3s ease-out backwards;
+}
 @keyframes turn {
   0%{
     transform: rotate(0deg) scale(0);
     opacity: 0;
   }
   33%{
-    transform: rotate(15deg) scale(1.4);
+    transform: rotate(18deg) scale(1.5);
   }
   66%{
-    transform: rotate(-15deg) scale(0.9);
+    transform: rotate(-18deg) scale(0.9);
   }
   100%{
     transform: rotate(0deg) scale(1);
+  }
+}
+@keyframes grow {
+  0%{
+    transform: scale(.9);
+  }
+  33%{
+    transform: scale(1.1);
+  }
+  66%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
   }
 }
 /* ==========================================================================
