@@ -252,7 +252,6 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -264,8 +263,9 @@ button:focus {
   flex-grow: 1;
   -webkit-transition: .3s;
   transition: .3s;
-  max-width: 70%;
-  min-width: 15%
+  max-width: 80%;
+  min-width: 10%;
+  width: 25%;
 }
 .gallery div:hover{
   -webkit-transition: .5s;
