@@ -143,10 +143,25 @@ header:after {
     z-index: 0;
     margin-bottom: 20px;
 }
+#portfolio:after {
+    background: inherit;
+    /* bottom: -100%; */
+    content: '';
+    display: block;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    /* right: 0; */
+    transform-origin: 100%;
+    transform: skewY(3.75deg);
+    z-index: -1;
+    margin-bottom: 20px;
+}
 section{
   width: 100%;
   color: #2A323E;
-  padding-bottom: 30px;
+  padding: 40px 0px;
 }
 section.dark{
   color: white;
@@ -211,14 +226,16 @@ footer{
 }
 .service{
   display: inline-block;
-  border-top: 1px solid rgba(68,68,68,0.1);
-  border-bottom: 1px solid rgba(68,68,68,0.1);
+/*  border-top: 1px solid rgba(68,68,68,0.1);
+  border-bottom: 1px solid rgba(68,68,68,0.1);*/
   /*border-radius: 3px;*/
   color:#444;
   padding: 10px 20px 20px 20px;
   text-align: center;
 }
-
+.gallery:not(:last-child){
+  border-bottom: 1px solid rgba(68,68,68,0.1);
+}
 section.dark .service{
   background-color: white;
 }
@@ -237,7 +254,7 @@ section.dark .service{
   fill: #444 !important;
 }
 button {
-  display: block;
+  display: inline-block;
   margin-top: 80px;
   padding: 15px 45px;
   font-size: 2em;
@@ -304,7 +321,24 @@ button:focus {
   border:1px solid #084f70;
   color: #084f70;
 }
-
+.showcase{
+  text-align: center;
+  display: block;
+}
+.showcase div{
+  background-color: #fff;
+  color: #444;
+  width: 75%;
+  text-align: center;
+  margin: 45px auto;
+  padding: 20px 0px;
+  box-shadow: 0 30px 22px 0 rgba(0,0,0,.1);
+}
+.showcase button{
+  font-size: 1.2em;
+  background: #084f70;
+  margin: 30px auto;
+}
 /* ==========================================================================
    logo animation
    ========================================================================== */
