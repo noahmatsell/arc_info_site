@@ -146,6 +146,7 @@ header:after {
 section{
   width: 100%;
   color: #2A323E;
+  padding-bottom: 30px;
 }
 section.dark{
   color: white;
@@ -204,11 +205,13 @@ footer{
   height: 60px;
   color: #fff;
   text-align: center;
+  padding: 20px;
 }
 .service{
   display: inline-block;
-  border: 1px solid grey;
-  border-radius: 3px;
+  border-top: 1px solid rgba(68,68,68,0.1);
+  border-bottom: 1px solid rgba(68,68,68,0.1);
+  /*border-radius: 3px;*/
   color:#444;
   padding: 10px 20px 20px 20px;
   text-align: center;
@@ -220,6 +223,9 @@ section.dark .service{
 .service h1{
   font-size: 1em;
   letter-spacing: 3px;
+}
+.service p{
+  font-size: .75em;
 }
 .service svg{
   height: 50%;
@@ -255,6 +261,7 @@ button:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin: 20px 0px;
 }
 .gallery *{
   z-index:5;
@@ -281,6 +288,13 @@ button:focus {
 .gallery button{
   margin: 40px auto;
   background-color: #084f70;
+  font-size: 1.2em; 
+}
+
+.hoverButton{
+  margin: 40px auto;
+  background-color: #fff;
+  color: #444;
   font-size: 1.2em; 
 }
 .gallery button:hover{
