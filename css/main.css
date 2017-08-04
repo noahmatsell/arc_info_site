@@ -219,10 +219,19 @@ section .container, header .container{
 }
 footer{
   background-color: #444;
-  height: 60px;
   color: #fff;
   text-align: center;
   padding: 20px;
+}
+
+footer p{
+  margin: 10px;
+}
+footer a {
+  color:#fff;
+}
+footer p a{
+  color:#87BB36;
 }
 .service{
   display: inline-block;
@@ -267,7 +276,7 @@ button {
   background-color: #87BB36;
 }
 button:hover{
-  background-color:rgba(0,0,0,0);
+  background-color: #084f70;
   border:1px solid #87BB36;
 }
 button:focus {
