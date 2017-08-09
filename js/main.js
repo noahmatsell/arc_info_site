@@ -14,9 +14,6 @@ $(function(){
     });
 });
 
-//svg animation
-  new Vivus('compass', {duration: 400});
-
 //smooth scroll
 $(function($) {
     // The speed of the scroll in milliseconds
