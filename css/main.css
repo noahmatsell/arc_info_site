@@ -106,6 +106,9 @@ nav{
   display: inline-block;
   width:100%;
 }
+a{
+  text-decoration: none;
+}
 header{
   background-color: #084f70;
   color: white;
@@ -217,6 +220,32 @@ nav .container{
 section .container, header .container{
     padding: 80px 0px 40px;
 }
+#proposal-form{
+  display: none;
+}
+.featherlight .featherlight-inner {
+  display: block !important;
+}
+.featherlight .featherlight-content{
+  background: #444 !important;
+  text-align: center;
+}
+form{
+  width: 100%;
+  margin:0px auto;
+}
+form h2, form label{
+  color: white;
+}
+form label{
+  display: block;
+  margin-top: 10px
+}
+input:not([type="checkbox"]){
+  font-size: 1.2em;
+  padding: 10px;
+  width: 100%;
+}
 footer{
   background-color: #444;
   color: #fff;
@@ -242,6 +271,15 @@ footer p a{
   padding: 10px 20px 20px 20px;
   text-align: center;
 }
+.service div {
+  width: 100%;
+  transition: 1s transform;
+  visibility: hidden;
+}
+.serviceHover{
+  visibility: visible !important;
+  transform: translateY(-25%);
+}
 .gallery:not(:last-child){
   border-bottom: 1px solid rgba(68,68,68,0.1);
 }
@@ -262,7 +300,7 @@ section.dark .service{
 .service svg path{
   fill: #444 !important;
 }
-button {
+.button {
   display: inline-block;
   margin-top: 80px;
   padding: 15px 45px;
@@ -275,11 +313,11 @@ button {
   color: #fff;
   background-color: #87BB36;
 }
-button:hover{
+.button:hover{
   background-color: #084f70;
   border:1px solid #87BB36;
 }
-button:focus {
+.button:focus {
   outline: none
 }
 .gallery{
@@ -294,7 +332,7 @@ button:focus {
 .gallery *{
   z-index:5;
 }
-.gallery div{
+.gallery > div{
   flex-grow: 1;
   -webkit-transition: .3s;
   transition: .3s;
@@ -302,7 +340,7 @@ button:focus {
   min-width: 10%;
   width: 25%;
 }
-.gallery div:hover{
+.gallery > div:hover{
   -webkit-transition: .5s;
   transition: .5s;
   max-width: 70% !important;
@@ -313,7 +351,7 @@ button:focus {
   background-color: #444;
   color: white;
 }
-.gallery button{
+.gallery .button{
   margin: 40px auto;
   background-color: #084f70;
   font-size: 1.2em; 
@@ -325,7 +363,7 @@ button:focus {
   color: #444;
   font-size: 1.2em; 
 }
-.gallery button:hover{
+.gallery .button:hover{
   background-color:#fff;
   border:1px solid #084f70;
   color: #084f70;
@@ -343,7 +381,7 @@ button:focus {
   padding: 20px 0px;
   box-shadow: 0 30px 22px 0 rgba(0,0,0,.1);
 }
-.showcase button{
+.showcase .button{
   font-size: 1.2em;
   background: #084f70;
   margin: 30px auto;

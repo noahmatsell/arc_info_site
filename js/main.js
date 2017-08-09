@@ -24,8 +24,16 @@ $(function($) {
     // Find links that are #anchors and scroll to them
     $('a[href^="#"]')
       .unbind('click.smoothScroll')
+      .not('.button')
       .bind('click.smoothScroll', function(event) {
         event.preventDefault();
         $('html, body').animate({ scrollTop: $( $(this).attr('href') ).offset().top }, speed);
       });
   });
+
+//service hover
+$('.service').hover(function(){
+  $(this).find("div").addClass('serviceHover');
+}, function(){
+  $(this).find("div").removeClass('serviceHover');
+});
