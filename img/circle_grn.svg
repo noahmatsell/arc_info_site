@@ -1,22 +1,22 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 481.54 481.54"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:5px;stroke:url(#linear-gradient);}.cls-2{stroke-width:3px;stroke:url(#linear-gradient-2);}.cls-3{stroke-dasharray:3.99 3.99;stroke:url(#linear-gradient-3);}.cls-1{
-	animation: rotate 6.4s linear infinite;
-  -webkit-animation: rotate 6.4s linear infinite;
-  -moz-animation: rotate 6.4s linear infinite;
-}
-.cls-2{
 	animation: rotate 10.4s linear infinite;
   -webkit-animation: rotate 10.4s linear infinite;
   -moz-animation: rotate 10.4s linear infinite;
 }
+.cls-2{
+	animation: rotate 15.4s linear infinite;
+  -webkit-animation: rotate 15.4s linear infinite;
+  -moz-animation: rotate 15.4s linear infinite;
+}
 .cls-3{
-	animation: rotate 14.4s linear infinite;
-  -webkit-animation: rotate 14.4s linear infinite;
-  -moz-animation: rotate 14.4s linear infinite;
+	animation: rotate 20.4s linear infinite;
+  -webkit-animation: rotate 20.4s linear infinite;
+  -moz-animation: rotate 20.4s linear infinite;
 }
 .cls-4{
-	animation: rotate 18.4s linear infinite;
-  -webkit-animation: rotate 18.4s linear infinite;
-  -moz-animation: rotate 18.4s linear infinite;
+	animation: rotate 25.4s linear infinite;
+  -webkit-animation: rotate 25.4s linear infinite;
+  -moz-animation: rotate 25.4s linear infinite;
 }
 @keyframes rotate {
   to {

@@ -109,33 +109,55 @@ nav{
 a{
   text-decoration: none;
 }
-.bgimg{
-  width:100%;
-  height: 100%;
-  background-image: url('../img/circle_grn.svg');
-}
+
 header{
   background-color: #084f70;
+  background-image: url('../img/circle_grn.svg');
+  background-position: 135% 0%;
+  background-size: 65%;
+  background-repeat: no-repeat;
   color: white;
   display: inline-block;
   width:100%;
   margin-bottom: 50px;
+  padding-bottom: 100px;
 }
-header:after {
-    background: inherit;
+/*header:after {
+    background: #084f70;
     /* bottom: -100%; */
-    content: '';
+  /*  content: '';
     display: block;
     height: 150px;
     width: 100%;
     left: 0;
     position: absolute;
-    /* right: 0; */
+     right: 0; 
     transform-origin: 100%;
     transform: skewY(3.75deg);
     z-index: -1;
+    margin-bottom: 20px;*/
+  /*}*/
+
+#services:before {
+    background: white;
+    /* bottom: -100%; */
+    content: '';
+    display: block;
+    height: 350px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    /* right: 0; */
+    transform-origin: 175%;
+    transform: skewY(3.75deg);
     margin-bottom: 20px;
-  }
+}
+#services div{
+  z-index: 1;
+}
+#services .container{
+  padding-top: 0px;
+}
 #services:after {
     background: white;
     /* bottom: -100%; */
@@ -218,6 +240,8 @@ nav svg{
 .container{
   width:95%;
   margin: 0px auto;
+  display: block;
+  position: relative;
 }
 nav .container{
   height: 100%;
