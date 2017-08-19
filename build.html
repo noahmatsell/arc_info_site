@@ -73,11 +73,6 @@
     <text transform="matrix(1 0 0 1 76.2527 31.7401)" class="st1 st2 lightlogo">INFORMATICS</text>
     </svg>
     </a>
-    <!-- <ul>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#portfolio">PORTFOLIO</a></li>
-      <li><a href="#about">ABOUT</a></li>
-    </ul> -->
     </div>
   </nav>
   <header>
@@ -94,30 +89,34 @@
     <div class="gallery">
       <div class="service">
         <h1>WORDPRESS</h1>
+        <img src="img/wp.svg" width="128px" alt="wordpress">
         <div>
           <p>Leverage this powerful open-source platform for your business. You benefit from the flexibility, ease of use, responsiveness and excellent SEO capabilities of this CMS.</p>
-          <a href="#" class="button">Get it!</a>
+          <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
         </div>
       </div>
       <div class="service">
         <h1>LANDING PAGES</h1>
+        <img src="img/lp.svg" width="128px" alt="landing pages">
         <div>
           <p>Start using hyper-optimized landing pages in your campaigns that are proven to boost conversions.</p>
-          <a href="#" class="button">Get it!</a>  
+          <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>  
         </div>
       </div>
       <div class="service">
         <h1>GOOGLE AMP</h1>
+        <img src="img/amp.svg" width="128px" alt="google amp">
         <div>
           <p>Create websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.</p>
-          <a href="#" class="button">Get it!</a>
+          <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
         </div>
       </div>
       <div class="service">
         <h1>RESPONSIVE INTERFACES</h1>
+        <img src="img/devices.svg" width="128px" alt="responsive interfaces">
         <div>
           <p>Craft a front end design that looks amazing on all devices.</p>
-          <a href="#" class="button">Get it!</a>
+          <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
         </div>
       </div>
     </div>
@@ -129,9 +128,8 @@
       <p><a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
-  <div id="proposal-form">
-    <form action="" method="post">
-      <h2>A few questions before to start</h2>
+   <div id="proposal-form">
+    <form id="proposal" action="#" method="post">
       <label for="goal">What's your goal?</label>
         <input tabindex="1" type="checkbox" name="goal" value="build" >Build
         <input tabindex="2" type="checkbox" name="goal" value="improve" >Improve
@@ -143,8 +141,17 @@
       <input tabindex="5" type="text" name="fullname" placeholder="Full name...">
       <label for="email">Your Email</label>
       <input tabindex="6" type="email" name="email" placeholder="Email...">
-      <button tabindex="7" type="submit" class="button" >Request Proposal</button>
+      <label for="comments">Comments</label>
+      <textarea tabindex="7" rows="2" name="comments" placeholder="Your comments..."></textarea>
+      <input type="hidden" name="source">
+      <input type="hidden" name="medium">
+      <button tabindex="8" type="submit" class="button" >Request Proposal</button>
     </form>
+  </div>
+  <div id="thanks">
+    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+    <h1>Thanks for your Interest!</h1>
+    <p>Keep your eyes peeled for your free proposal.</p>
   </div>
   <!--Before Body End-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.1/vivus.min.js"></script>

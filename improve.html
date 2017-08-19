@@ -83,7 +83,8 @@
   <header>
     <div class="container">
       <h1>Improve your front end</h1>
-      <h2>Already have a web solution that needs some love? We can help your existing solutions perform the way that you envisioned the first time.</h2>
+      <h2>Already have a web solution that needs some love?</h2> 
+      <h2>We can help your existing solutions perform the way that you envisioned the first time.</h2>
       <a href="#" data-featherlight="#proposal-form" class="button">Get Free Proposal</a>
     </div>  
   </header>
@@ -94,6 +95,7 @@
     <div class="gallery">
       <div class="service">
         <h1>IMPROVE FUNCTIONALITY</h1>
+        <img src="img/gears.svg" width="128px" alt="improve">
         <div>
           <p>IMPROVE FUNCTIONALITY</p>
           <a href="#" class="button">Get it!</a>
@@ -101,6 +103,7 @@
       </div>
       <div class="service">
         <h1>BOOST PERFORMANCE</h1>
+        <img src="img/improve.svg" width="128px" alt="boost">
         <div>
           <p>BOOST PERFORMANCE</p>
           <a href="#" class="button">Get it!</a>  
@@ -108,6 +111,7 @@
       </div>
       <div class="service">
         <h1>FIX WHAT'S BROKEN</h1>
+        <img src="img/tools.svg" width="128px" alt="fix">
         <div>
           <p>FIX WHAT'S BROKEN</p>
           <a href="#" class="button">Get it!</a>
@@ -122,9 +126,8 @@
       <p><a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
-  <div id="proposal-form">
-    <form action="" method="post">
-      <h2>A few questions before to start</h2>
+ <div id="proposal-form">
+    <form id="proposal" action="#" method="post">
       <label for="goal">What's your goal?</label>
         <input tabindex="1" type="checkbox" name="goal" value="build" >Build
         <input tabindex="2" type="checkbox" name="goal" value="improve" >Improve
@@ -136,8 +139,17 @@
       <input tabindex="5" type="text" name="fullname" placeholder="Full name...">
       <label for="email">Your Email</label>
       <input tabindex="6" type="email" name="email" placeholder="Email...">
-      <button tabindex="7" type="submit" class="button" >Request Proposal</button>
+      <label for="comments">Comments</label>
+      <textarea tabindex="7" rows="2" name="comments" placeholder="Your comments..."></textarea>
+      <input type="hidden" name="source">
+      <input type="hidden" name="medium">
+      <button tabindex="8" type="submit" class="button" >Request Proposal</button>
     </form>
+  </div>
+  <div id="thanks">
+    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+    <h1>Thanks for your Interest!</h1>
+    <p>Keep your eyes peeled for your free proposal.</p>
   </div>
   <!--Before Body End-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.1/vivus.min.js"></script>
