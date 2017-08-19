@@ -14,9 +14,9 @@
   -moz-animation: rotate 20.4s linear infinite;
 }
 .cls-4{
-	animation: rotate 25.4s linear infinite;
-  -webkit-animation: rotate 25.4s linear infinite;
-  -moz-animation: rotate 25.4s linear infinite;
+	animation: rotate 45.4s linear infinite;
+  -webkit-animation: rotate 45.4s linear infinite;
+  -moz-animation: rotate 45.4s linear infinite;
 }
 @keyframes rotate {
   to {

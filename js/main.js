@@ -9,6 +9,7 @@ $(function(){
         strings: ["build", "improve", "connect"],
         //change speed
         typeSpeed: 100,
+        backDelay: 2000,
         //loop the animation
     loop: true
     });
@@ -34,3 +35,20 @@ $('.service').hover(function(){
 }, function(){
   $(this).find("div").removeClass('serviceHover');
 });
+
+//featherlight tab fix
+$.featherlight._callbackChain.beforeOpen = function (event) {
+        //http://stackoverflow.com/q/42234790/470749
+        //By overriding this function, I can prevent the messing up of tabindex values done by: https://github.com/noelboss/featherlight/blob/master/src/featherlight.js#L559            
+    };
+    $.featherlight._callbackChain.afterClose = function (event) {
+        //See note above in $.featherlight._callbackChain.beforeOpen
+    };
+    $.featherlight.defaults.afterContent = function (event) {
+        var firstInput = $('.featherlight-content #firstname');
+        console.log('Considering whether to focus on input depending on window size...', $(window).width(), $(window).height(), firstInput);
+        if (Math.min($(window).width(), $(window).height()) > 736) {//if the smallest dimension of the device is larger than iPhone6+
+            console.log('yes, focus');
+            firstInput.attr('autofocus', true);
+        }
+    };

@@ -113,8 +113,8 @@ a{
 header{
   background-color: #084f70;
   background-image: url('../img/circle_grn.svg');
-  background-position: 135% 0%;
-  background-size: 65%;
+  background-position: 195% -5%;
+  background-size: 70%;
   background-repeat: no-repeat;
   color: white;
   display: inline-block;
@@ -148,7 +148,7 @@ header{
     left: 0;
     position: absolute;
     /* right: 0; */
-    transform-origin: 175%;
+    transform-origin: 200%;
     transform: skewY(3.75deg);
     margin-bottom: 20px;
 }
@@ -256,8 +256,11 @@ section .container, header .container{
   display: block !important;
 }
 .featherlight .featherlight-content{
-  background: #444 !important;
-  text-align: center !important;
+  background: #222222 !important;
+background: -moz-radial-gradient(center, ellipse cover, #222222 0%, #444444 100%) !important;
+background: -webkit-radial-gradient(center, ellipse cover, #222222 0%,#444444 100%) !important;
+background: radial-gradient(ellipse at center, #222222 0%,#444444 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#444444',GradientType=1 );
 }
 form{
   width: 80%;
@@ -267,15 +270,19 @@ form{
 form h2, form label{
   color: white;
 }
+form h2{
+  text-decoration: underline;
+}
 form label{
   display: block;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 form label:not(:first-child){
   text-align: left;
 }
 form .button{
   margin: 20px 0px;
+  width: 100%;
 }
 input:not([type="checkbox"]){
   font-size: 1.2em;
