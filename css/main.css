@@ -602,6 +602,10 @@ svg#Layer_1{
     /* Style adjustments for viewports that meet the condition */
     .container{width:75%;}
 }
+@media only screen and (min-width: 1500px) {
+    /* Style adjustments for viewports that meet the condition */
+    .container{width:50%;}
+}
 
 @media print,
        (min-resolution: 1.25dppx),
