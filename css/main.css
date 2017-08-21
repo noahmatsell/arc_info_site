@@ -347,7 +347,7 @@ footer p a{
 section.dark .service{
   background-color: white;
 }
-.service h1{
+.service h1, .showcase h1{
   font-size: .8em;
   letter-spacing: 3px;
 }
@@ -433,30 +433,59 @@ section.dark .service{
   text-align: center;
   display: block;
 }
-.showcase div{
+.showcase > div{
   background-color: #fff;
   color: #444;
-  width: 75%;
+  width: 65%;
   text-align: center;
   margin: 45px auto;
-  padding: 10px 0px;
+  padding: 0;
   box-shadow: 0 30px 22px 0 rgba(0,0,0,.1);
-}
-.showcase div img{
-  max-width: 85%;
-  border-radius: 3px;
-  box-shadow: 0 20px 18px 0 rgba(0,0,0,.1);
   transition: all .5s ease-in-out;
-}
-.showcase div img:hover{
-  max-width: 88%;
   border-radius: 3px;
-  box-shadow: 0 25px 22px 0 rgba(0,0,0,.3);
+  height: 400px;
 }
+.showcase > div:hover{
+  transform: scale(1.03);
+  border-radius: 3px;
+  box-shadow: 0 30px 42px 0 rgba(0,0,0,.4);
+}
+.showcase div div{
+  background: rgba(0,0,0,.9);
+  color: white;
+  min-height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all .3s ease-in;
+  text-align: left;
+  position: relative;
+}
+
+.tags{
+  list-style: none;
+  padding: 0px;
+}
+.tags li{
+  background: #87BB36;
+  border-radius: 20px;
+  padding: 4px 8px;
+  display: inline-block;
+  font-size: .7em;
+}
+
 .showcase .button{
   font-size: 1.2em;
   background: #084f70;
-  margin: 30px auto;
+  margin: 40px auto;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0px;
 }
 /* ==========================================================================
    logo animation
