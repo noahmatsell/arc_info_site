@@ -47,6 +47,12 @@ $('.service').hover(function(){
   $(this).find("div").removeClass('serviceHover');
 });
 
+$('.showcase div').hover(function(){
+  $(this).find("ul").removeClass('invisible');
+}, function(){
+  $(this).find("ul").addClass('invisible');
+});
+
 //featherlight tab fix
 $.featherlight._callbackChain.beforeOpen = function (event) {
         //http://stackoverflow.com/q/42234790/470749

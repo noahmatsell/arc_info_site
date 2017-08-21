@@ -324,12 +324,10 @@ footer p a{
 }
 .service{
   display: inline-block;
-/*  border-top: 1px solid rgba(68,68,68,0.1);
-  border-bottom: 1px solid rgba(68,68,68,0.1);*/
-  /*border-radius: 3px;*/
   color:#444;
   padding: 10px 20px 20px 20px;
   text-align: center;
+  border-right: 1px solid rgba(68,68,68,0.1);
 }
 .service div {
   width: 20em;
@@ -350,20 +348,21 @@ section.dark .service{
 .service h1, .showcase h1{
   font-size: .8em;
   letter-spacing: 3px;
+  margin-bottom: 1.5em;
 }
 .service p{
   font-size: .75em;
 }
 .service svg{
   height: 50%;
-  margin-top:40px;
+  margin-top:15px;
 }
 .service svg path{
   fill: #444 !important;
 }
 .button {
   display: inline-block;
-  margin-top: 80px;
+  margin: 50px 0px;
   padding: 15px 45px;
   font-size: 2em;
   line-height: 1.8;
@@ -451,15 +450,19 @@ section.dark .service{
   box-shadow: 0 30px 42px 0 rgba(0,0,0,.4);
 }
 .showcase div div{
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.7);
   color: white;
   min-height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
   transition: all .3s ease-in;
   text-align: left;
   position: relative;
+  cursor: pointer;
+}
+.showcase div div:hover{
+  background: rgba(0,0,0,.9);
 }
 
 .tags{
