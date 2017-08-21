@@ -348,7 +348,7 @@ section.dark .service{
   background-color: white;
 }
 .service h1{
-  font-size: 1em;
+  font-size: .8em;
   letter-spacing: 3px;
 }
 .service p{
@@ -404,7 +404,7 @@ section.dark .service{
 .gallery > div:hover{
   -webkit-transition: .5s;
   transition: .5s;
-  width: 70% !important;
+  width: 55% !important;
   -webkit-box-flex: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
