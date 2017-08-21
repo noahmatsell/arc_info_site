@@ -119,11 +119,10 @@ header{
   color: white;
   display: inline-block;
   width:100%;
-  margin-bottom: 50px;
 }
 .home{
   background-color: #084f70;
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 }
 /*header:after {
     background: #084f70;
@@ -191,16 +190,17 @@ header{
     z-index: -1;
     margin-bottom: 20px;
 }
+#portfolio, #about{
+  padding-top: 60px;
+}
 section{
   width: 100%;
   color: #2A323E;
-  padding: 20px 0px;
 }
 section.dark{
   color: white;
   background: #87BB36;
 }
-
 header h1{
   font-size:3.75em;
   margin: 0px;
@@ -332,7 +332,8 @@ footer p a{
   text-align: center;
 }
 .service div {
-  width: 100%;
+  width: 20em;
+  margin:0px auto;
   transition: 1s transform;
   visibility: hidden;
 }
@@ -403,10 +404,10 @@ section.dark .service{
 .gallery > div:hover{
   -webkit-transition: .5s;
   transition: .5s;
-  max-width: 70% !important;
-  -webkit-box-flex: 7;
-  -ms-flex-positive: 7;
-  flex-grow: 7;
+  width: 70% !important;
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
   cursor: pointer;
   background-color: #444;
   color: white;
@@ -438,8 +439,19 @@ section.dark .service{
   width: 75%;
   text-align: center;
   margin: 45px auto;
-  padding: 20px 0px;
+  padding: 10px 0px;
   box-shadow: 0 30px 22px 0 rgba(0,0,0,.1);
+}
+.showcase div img{
+  max-width: 85%;
+  border-radius: 3px;
+  box-shadow: 0 20px 18px 0 rgba(0,0,0,.1);
+  transition: all .5s ease-in-out;
+}
+.showcase div img:hover{
+  max-width: 88%;
+  border-radius: 3px;
+  box-shadow: 0 25px 22px 0 rgba(0,0,0,.3);
 }
 .showcase .button{
   font-size: 1.2em;
