@@ -193,6 +193,13 @@ header{
 #portfolio, #about{
   padding-top: 60px;
 }
+#about img{
+  border-radius: 50%;
+  width: 200px;
+  display: inline;
+  margin-bottom: 30px;
+  border: 2px dashed #87BB36;
+}
 section{
   width: 100%;
   color: #2A323E;
