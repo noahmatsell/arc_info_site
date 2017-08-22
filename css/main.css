@@ -153,6 +153,7 @@ header{
     transform-origin: 200%;
     transform: skewY(3.75deg);
     margin-bottom: 20px;
+    outline: 1px solid transparent;
 }
 #services div{
   z-index: 1;
