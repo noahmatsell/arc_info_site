@@ -504,6 +504,37 @@ section.dark .service{
   right: 0;
   bottom: 0px;
 }
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 2em 20px;
+  padding: 1em;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #444;
+  box-shadow: 0 30px 22px 0 rgba(0,0,0,.15);
+  width: 75%;
+  line-height: 1.8em;
+
+}
+.source{
+  font-size: .5em;
+  display: block;
+  width: 85%;
+  margin:20px auto;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: block;
+  width: 85%;
+  margin:0px auto;
+}
 /* ==========================================================================
    logo animation
    ========================================================================== */
