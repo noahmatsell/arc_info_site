@@ -69,3 +69,25 @@ $.featherlight._callbackChain.beforeOpen = function (event) {
             firstInput.attr('autofocus', true);
         }
     };
+//checkbox styling
+function statecheck(layer) {
+    console.log('click');
+    var ischecked = layer.childNodes[0].checked;
+    
+  if(ischecked === true){
+    layer.style.color = "#87BB36 !important";
+    console.log("checked!");
+    } else {
+    layer.style.color = "#fff !important";
+    console.log("unchecked!");
+  };
+  
+}
+document.getElementById('buildlabel').addEventListener("click", function(){
+    statecheck(this);
+});
+document.getElementById('improvelabel').addEventListener("click", function(){
+    statecheck(this);
+});document.getElementById('connectlabel').addEventListener("click", function(){
+    statecheck(this);
+});

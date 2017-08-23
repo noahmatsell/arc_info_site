@@ -73,16 +73,16 @@
     <text transform="matrix(1 0 0 1 76.2527 31.7401)" class="st1 st2 lightlogo">INFORMATICS</text>
     </svg>
     </a>
-    <!-- <ul>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#portfolio">PORTFOLIO</a></li>
-      <li><a href="#about">ABOUT</a></li>
-    </ul> -->
+    <ul>
+      <li><a href="index.html#services">SERVICES</a></li>
+      <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+      <li><a href="index.html#about">ABOUT</a></li>
+    </ul>
     </div>
   </nav>
   <header>
     <div class="container">
-      <h1>Integrate tools to power up your website</h1>
+      <h1>Integrate tools that power up your website</h1>
       <h2>Leverage powerful web technologies to get your website doing more for your business.</h2> 
       <a href="#" data-featherlight="#proposal-form" class="button">Get Free Proposal</a>
     </div>  
@@ -94,7 +94,7 @@
     <div class="gallery">
       <div class="service">
         <h1>ANALYTICS</h1>
-        <img src="img/gears.svg" width="128px" alt="improve">
+        <img src="img/report.svg" width="128px" alt="improve">
         <div>
           <p>Develop a strategy for tracking your web traffic and get smarter reporting.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
@@ -102,7 +102,7 @@
       </div>
       <div class="service">
         <h1>PAYMENTS</h1>
-        <img src="img/improve.svg" width="128px" alt="boost">
+        <img src="img/payment.svg" width="128px" alt="boost">
         <div>
           <p>Start accepting payments on your web properties with Stripe and other leading technology.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>  
@@ -110,7 +110,7 @@
       </div>
       <div class="service">
         <h1>MANAGE LEADS</h1>
-        <img src="img/tools.svg" width="128px" alt="fix">
+        <img src="img/leads.svg" width="128px" alt="fix">
         <div>
           <p>Capture leads on your web data and send them to the platform of your choosing.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
@@ -127,11 +127,11 @@
   </footer>
  <div id="proposal-form">
     <form id="proposal" action="#" method="post">
-      <label for="goal">What's your goal?</label>
-        <input tabindex="1" type="checkbox" name="goal" value="build" >Build
-        <input tabindex="2" type="checkbox" name="goal" value="improve" >Improve
-        <input tabindex="3" type="checkbox" name="goal" value="connect" >Connect
-      </select>
+      <label for="goal">What's your goal?</label><br>
+        <div class="check"><label id="buildlabel"><input tabindex="1" type="checkbox" name="goal" value="build" onchange="statecheck('buildlabel')">Build</label></div>
+        <div class="check"><label id="improvelabel"><input tabindex="2" type="checkbox" name="goal" value="improve" onchange="statecheck('improvelabel')">Improve</label></div>
+        <div class="check"><label id="connectlabel"><input tabindex="3" type="checkbox" name="goal" value="connect" onchange="statecheck('connectlabel')">Connect</label></div>
+          
       <label for="website">Your Website URL</label>
       <input tabindex="4" type="text" name="website" placeholder="Website URL...">
       <label for="fullname">Your Full Name</label>

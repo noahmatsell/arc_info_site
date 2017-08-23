@@ -297,18 +297,23 @@ form label{
 form label:not(:first-child){
   text-align: left;
 }
+
 form .button{
   margin: 20px 0px;
   width: 100%;
 }
 input:not([type="checkbox"]){
-  font-size: 1.1em;
+  font-size: .9em;
   padding: 10px;
   width: 100%;
   color: #444;
 }
 input[type="checkbox"]{
   margin: 5px;
+}
+.check, form label:first-child{
+  font-size: 1.2em;
+  display: inline-block;
 }
 textarea{
   color: #444;
@@ -367,7 +372,7 @@ section.dark .service{
   margin-top:15px;
 }
 .service svg path{
-  fill: #444 !important;
+  fill: #000 !important;
 }
 .button {
   display: inline-block;
@@ -721,6 +726,37 @@ svg#Layer_1{
 @media only screen and (min-width: 1500px) {
     /* Style adjustments for viewports that meet the condition */
     .container{width:50%;}
+}
+@media only screen and (max-width: 840px) {
+    /* Style adjustments for viewports that meet the condition */
+    h1{
+      font-size: 1.6em !important;
+    }
+    h2{
+      font-size: 1.25em !important;
+    }
+    section .container, header .container {
+      padding: 90px 0px 20px !important;
+    }
+    .gallery > div {
+      width: 100% !important;
+      margin-bottom: 20px !important;
+      border-right: none;
+    }
+    .service div {
+      visibility: visible !important;
+      width:100%;
+      padding:20px;
+    }
+    .showcase > div {
+      width:95% !important;
+    }
+    ul.tags.invisible {
+      visibility: visible !important;
+    }
+    .gallery{
+      flex-wrap: wrap;
+    }
 }
 
 @media print,

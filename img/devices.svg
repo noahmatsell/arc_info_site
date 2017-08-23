@@ -4,8 +4,8 @@
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:#525252;}
-	.st2{fill:#FFFFFF;}
+	.st1{fill:#000;}
+	.st2{fill:#444;}
 </style>
 <g>
 	<rect y="144" class="st0" width="512" height="224"/>

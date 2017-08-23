@@ -73,6 +73,11 @@
     <text transform="matrix(1 0 0 1 76.2527 31.7401)" class="st1 st2 lightlogo">INFORMATICS</text>
     </svg>
     </a>
+    <ul>
+      <li><a href="index.html#services">SERVICES</a></li>
+      <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+      <li><a href="index.html#about">ABOUT</a></li>
+    </ul>
     </div>
   </nav>
   <header>
@@ -130,11 +135,11 @@
   </footer>
    <div id="proposal-form">
     <form id="proposal" action="#" method="post">
-      <label for="goal">What's your goal?</label>
-        <input tabindex="1" type="checkbox" name="goal" value="build" >Build
-        <input tabindex="2" type="checkbox" name="goal" value="improve" >Improve
-        <input tabindex="3" type="checkbox" name="goal" value="connect" >Connect
-      </select>
+      <label for="goal">What's your goal?</label><br>
+        <div class="check"><label id="buildlabel"><input tabindex="1" type="checkbox" name="goal" value="build" onchange="statecheck('buildlabel')">Build</label></div>
+        <div class="check"><label id="improvelabel"><input tabindex="2" type="checkbox" name="goal" value="improve" onchange="statecheck('improvelabel')">Improve</label></div>
+        <div class="check"><label id="connectlabel"><input tabindex="3" type="checkbox" name="goal" value="connect" onchange="statecheck('connectlabel')">Connect</label></div>
+          
       <label for="website">Your Website URL</label>
       <input tabindex="4" type="text" name="website" placeholder="Website URL...">
       <label for="fullname">Your Full Name</label>

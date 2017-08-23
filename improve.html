@@ -73,11 +73,11 @@
     <text transform="matrix(1 0 0 1 76.2527 31.7401)" class="st1 st2 lightlogo">INFORMATICS</text>
     </svg>
     </a>
-    <!-- <ul>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#portfolio">PORTFOLIO</a></li>
-      <li><a href="#about">ABOUT</a></li>
-    </ul> -->
+    <ul>
+      <li><a href="index.html#services">SERVICES</a></li>
+      <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+      <li><a href="index.html#about">ABOUT</a></li>
+    </ul>
     </div>
   </nav>
   <header>
@@ -97,7 +97,7 @@
         <h1>IMPROVE FUNCTIONALITY</h1>
         <img src="img/gears.svg" width="128px" alt="improve">
         <div>
-          <p>IMPROVE FUNCTIONALITY</p>
+          <p>Get your web properties aligned with best practices and ensure you are providing a delightfully usable experience.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
         </div>
       </div>
@@ -105,7 +105,7 @@
         <h1>BOOST PERFORMANCE</h1>
         <img src="img/improve.svg" width="128px" alt="boost">
         <div>
-          <p>BOOST PERFORMANCE</p>
+          <p>We audit your underperforming web properties and implement solution proven to boost speed and performance.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>  
         </div>
       </div>
@@ -113,7 +113,7 @@
         <h1>FIX WHAT'S BROKEN</h1>
         <img src="img/tools.svg" width="128px" alt="fix">
         <div>
-          <p>FIX WHAT'S BROKEN</p>
+          <p>Are your web properties not working at all? We'll find the problem and get them working the way they were intended to.</p>
           <a href="#" data-featherlight="#proposal-form" class="button">Get it!</a>
         </div>
       </div>
@@ -128,11 +128,11 @@
   </footer>
  <div id="proposal-form">
     <form id="proposal" action="#" method="post">
-      <label for="goal">What's your goal?</label>
-        <input tabindex="1" type="checkbox" name="goal" value="build" >Build
-        <input tabindex="2" type="checkbox" name="goal" value="improve" >Improve
-        <input tabindex="3" type="checkbox" name="goal" value="connect" >Connect
-      </select>
+      <label for="goal">What's your goal?</label><br>
+        <div class="check"><label id="buildlabel"><input tabindex="1" type="checkbox" name="goal" value="build" onchange="statecheck('buildlabel')">Build</label></div>
+        <div class="check"><label id="improvelabel"><input tabindex="2" type="checkbox" name="goal" value="improve" onchange="statecheck('improvelabel')">Improve</label></div>
+        <div class="check"><label id="connectlabel"><input tabindex="3" type="checkbox" name="goal" value="connect" onchange="statecheck('connectlabel')">Connect</label></div>
+          
       <label for="website">Your Website URL</label>
       <input tabindex="4" type="text" name="website" placeholder="Website URL...">
       <label for="fullname">Your Full Name</label>
