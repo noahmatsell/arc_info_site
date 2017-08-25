@@ -150,7 +150,7 @@ header{
     left: 0;
     position: absolute;
     /* right: 0; */
-    transform-origin: 200%;
+    transform-origin: 150%;
     transform: skewY(3.75deg);
     margin-bottom: 20px;
     outline: 1px solid transparent;
@@ -166,7 +166,7 @@ header{
     /* bottom: -100%; */
     content: '';
     display: block;
-    height: 150px;
+    height: 175px;
     width: 100%;
     left: 0;
     position: absolute;
@@ -181,7 +181,7 @@ header{
     /* bottom: -100%; */
     content: '';
     display: block;
-    height: 150px;
+    height: 175px;
     width: 100%;
     left: 0;
     position: absolute;
@@ -192,7 +192,7 @@ header{
     margin-bottom: 20px;
 }
 #portfolio, #about{
-  padding-top: 60px;
+  padding-top: 90px;
 }
 #about img{
   border-radius: 50%;
