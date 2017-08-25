@@ -760,6 +760,19 @@ svg#Layer_1{
 }
 @media only screen and (max-width: 840px) {
     /* Style adjustments for viewports that meet the condition */
+    /*nav*/
+   /* nav ul{
+      display: inline-block;
+      background-color: white;
+      width: 100%;
+      position: absolute;
+      top: 54px;
+      z-index: 99;
+    }
+    nav li{
+      display: inline-block;
+      width: 100%;
+    }*/
     h1{
       font-size: 1.6em !important;
     }
