@@ -1,38 +1,92 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 481.54 481.54"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:5px;stroke:url(#linear-gradient);}.cls-2{stroke-width:3px;stroke:url(#linear-gradient-2);}.cls-3{stroke-dasharray:3.99 3.99;stroke:url(#linear-gradient-3);}.cls-1{
-	animation: rotate 10.4s linear infinite;
-  -webkit-animation: rotate 10.4s linear infinite;
-  -moz-animation: rotate 10.4s linear infinite;
-}
-.cls-2{
-	animation: rotate 15.4s linear infinite;
-  -webkit-animation: rotate 15.4s linear infinite;
-  -moz-animation: rotate 15.4s linear infinite;
-}
-.cls-3{
-	animation: rotate 20.4s linear infinite;
-  -webkit-animation: rotate 20.4s linear infinite;
-  -moz-animation: rotate 20.4s linear infinite;
-}
-.cls-4{
-	animation: rotate 45.4s linear infinite;
-  -webkit-animation: rotate 45.4s linear infinite;
-  -moz-animation: rotate 45.4s linear infinite;
-}
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes rotate {
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-@-moz-keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
-}
-circle{
-  transform-origin: 50% 50%;
-}</style><linearGradient id="linear-gradient" y1="240.77" x2="481.54" y2="240.77" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#87bb36"/></linearGradient><linearGradient id="linear-gradient-2" x1="6.77" y1="240.77" x2="474.77" y2="240.77" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-3" x1="15.27" y1="240.77" x2="466.27" y2="240.77" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#87bb36"/></linearGradient></defs><title>circle_grn</title><circle class="cls-1" cx="240.77" cy="240.77" r="238.27"/><circle class="cls-2" cx="240.77" cy="240.77" r="232.5"/><circle class="cls-3" cx="240.77" cy="240.77" r="225"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 481.5 481.5" style="enable-background:new 0 0 481.5 481.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:url(#SVGID_3_);stroke-miterlimit:10;stroke-dasharray:3.99,3.99;}
+	.st3{fill:none;stroke:url(#SVGID_4_);stroke-width:10;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:url(#SVGID_5_);stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:url(#SVGID_6_);stroke-width:2;stroke-miterlimit:10;stroke-dasharray:3.99,3.99;}
+	.st0{
+		animation: rotate 6.4s linear infinite;
+	  -webkit-animation: rotate 6.4s linear infinite;
+	  -moz-animation: rotate 6.4s linear infinite;
+	}
+	.st1{
+		animation: rotate 10.4s linear infinite;
+	  -webkit-animation: rotate 10.4s linear infinite;
+	  -moz-animation: rotate 10.4s linear infinite;
+	}
+	.st2{
+		animation: rotate 14.4s linear infinite;
+	  -webkit-animation: rotate 14.4s linear infinite;
+	  -moz-animation: rotate 14.4s linear infinite;
+	}
+	.st3{
+		animation: rotate 18.4s linear infinite;
+	  -webkit-animation: rotate 18.4s linear infinite;
+	  -moz-animation: rotate 18.4s linear infinite;
+	}
+	.st4{
+		animation: rotate 22.4s linear infinite;
+	  -webkit-animation: rotate 22.4s linear infinite;
+	  -moz-animation: rotate 22.4s linear infinite;
+	}
+	.st5{
+		animation: rotate 24.4s linear infinite;
+	  -webkit-animation: rotate 24.4s linear infinite;
+	  -moz-animation: rotate 24.4s linear infinite;
+	}
+	@keyframes rotate {
+	  to {
+	    transform: rotate(360deg);
+	  }
+	}
+	@-webkit-keyframes rotate {
+	  to {
+	    -webkit-transform: rotate(360deg);
+	  }
+	}
+	@-moz-keyframes rotate {
+	  to {
+	    transform: rotate(360deg);
+	  }
+	}
+	circle{
+	  transform-origin: 50% 50%;
+	}
+</style>
+<title>circle_grn</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.5" y1="242.73" x2="480.04" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st0" cx="240.8" cy="241.3" r="236.8"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="8.2337" y1="242.73" x2="473.3063" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st1" cx="240.8" cy="241.3" r="231"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="16.6865" y1="242.73" x2="464.8535" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st2" cx="240.8" cy="241.3" r="223.6"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="70.1386" y1="242.73" x2="411.4014" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st3" cx="240.8" cy="241.3" r="165.6"/>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="80.7757" y1="242.73" x2="400.7644" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st4" cx="240.8" cy="241.3" r="158"/>
+<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="86.8723" y1="242.73" x2="394.6678" y2="242.73" gradientTransform="matrix(1 0 0 -1 0 484)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#87BB36"/>
+</linearGradient>
+<circle class="st5" cx="240.8" cy="241.3" r="152.9"/>
+</svg>
