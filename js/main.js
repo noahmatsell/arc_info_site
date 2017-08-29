@@ -1,3 +1,11 @@
+//burger
+$(document).ready(function(){
+  $('#nav-icon2').click(function(){
+    $(this).toggleClass('open');
+    $('nav ul').slideToggle("slow");
+  });
+});
+
 //form submission
 var posturl = "https://hooks.zapier.com/hooks/catch/2011153/r2z1z0/";
 $( "form" ).on( "submit", function( event ) {
